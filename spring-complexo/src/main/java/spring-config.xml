@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="builder" class="br.edu.ifpb.padroes.spring.Employee$EmployeeBuilder">
+        <constructor-arg value="1"/>
+        <constructor-arg value="Julierme"/>
+        <property name="hobby" value="Developer"/>
+    </bean>
+    <bean id="employee" class="br.edu.ifpb.padroes.spring.Employee" factory-bean="builder" factory-method="build"/>
+</beans>

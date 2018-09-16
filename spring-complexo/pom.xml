@@ -5,15 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.edu.ifpb.padroes.spring</groupId>
-    <artifactId>spring-exemplo</artifactId>
+    <artifactId>spring-complexo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>4.1.3.RELEASE</version>
+            <version>4.3.5.RELEASE</version>
         </dependency>
     </dependencies>
-
 </project>
