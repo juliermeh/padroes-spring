@@ -8,7 +8,7 @@ public class Launcher {
 
     public static void main(String [] args){
         ApplicationContext appcont = new ClassPathXmlApplicationContext("springconfiguration.xml");
-        Central bean = (Central) appcont.getBean("Central");
+        Central bean = (Central) appcont.getBean("central");
         bean.registrar();
     }
 
